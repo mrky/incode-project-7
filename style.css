@@ -1,0 +1,42 @@
+#equation {
+    background: black;
+    color: white;
+    height: 100%;
+    text-align: right;
+    /* margin: auto; */
+    /* width: 50%; */
+}
+
+#calculator {
+    height: 55vh;
+
+    margin: 40px;
+    /* width: 50%; */
+}
+
+form {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr [col-start]);
+    /* grid-template-rows: repeat(4, 1fr [col-start]); */
+    margin: auto;
+    height: 100%;
+    width: 33%;
+}
+
+/* .row-1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+} */
+
+/* .operator {
+    grid-column-start: 4;
+    grid-row-start: 1;
+} */
+
+.span-col-2 {
+    grid-column: span 2;
+}
+
+.span-col-4 {
+    grid-column: span 4;
+}
